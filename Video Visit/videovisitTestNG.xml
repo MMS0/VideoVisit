@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="VideoVisit suite" configfailurepolicy="skip">
+
+<test name = "PatientLogin">
+<classes>
+<class name ="testCases.PatientLogin">
+</class>
+</classes>
+</test>
+
+<test name="Call the patient">
+<classes>
+<class name="testCases.CallThePatient"></class>
+</classes>
+</test>
+
+<test name="DisconnectCall">
+<classes>
+<class name="testCases.DisconnectCall">
+</class>
+</classes>
+</test>
+
+<test name="DisableCamera_CallPatient">
+<classes>
+<class name="testCases.DisableCamera_CallPatient">
+</class>
+</classes>
+</test>
+
+<test name="DisableCamera_DisconnectCall">
+<classes>
+<class name="testCases.DisableCamera_DisconnectCall">
+</class>
+</classes>
+</test>
+
+<test name="DisableMic_CallPatient">
+<classes>
+<class name="testCases.DisableMic_CallPatient">
+</class>
+</classes>
+</test>
+
+<test name="DisableMic_DisconnectCall">
+<classes>
+<class name="testCases.DisableMic_DisconnectCall">
+</class>
+</classes>
+</test>
+
+<test name="DisableMicCamera_CallPatient">
+<classes>
+<class name="testCases.DisableMicCamera_CallPatient">
+</class>
+</classes>
+</test>
+
+<test name="DisableMicCamera_DisconnectCall">
+<classes>
+<class name="testCases.DisableMicCamera_DisconnectCall">
+</class>
+</classes>
+</test>
+
+</suite>

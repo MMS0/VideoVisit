@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [VideoVisit suite]">
+  <test name="DisconnectCall(failed)">
+    <classes>
+      <class name="testCases.CallThePatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.CallThePatient -->
+      <class name="testCases.DisableMicCamera_DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableMicCamera_DisconnectCall -->
+      <class name="testCases.DisableMicCamera_CallPatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableMicCamera_CallPatient -->
+      <class name="testCases.DisableMic_DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableMic_DisconnectCall -->
+      <class name="testCases.DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+          <include name="CallPatient"/>
+        </methods>
+      </class> <!-- testCases.DisconnectCall -->
+      <class name="testCases.DisableCamera_CallPatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableCamera_CallPatient -->
+      <class name="testCases.DisableMic_CallPatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableMic_CallPatient -->
+      <class name="testCases.PatientLogin">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.PatientLogin -->
+      <class name="testCases.DisableCamera_DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableCamera_DisconnectCall -->
+    </classes>
+  </test> <!-- DisconnectCall(failed) -->
+  <test name="DisableCamera_DisconnectCall(failed)">
+    <classes>
+      <class name="testCases.CallThePatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.CallThePatient -->
+      <class name="testCases.DisableMicCamera_DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableMicCamera_DisconnectCall -->
+      <class name="testCases.DisableMicCamera_CallPatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableMicCamera_CallPatient -->
+      <class name="testCases.DisableMic_DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableMic_DisconnectCall -->
+      <class name="testCases.DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisconnectCall -->
+      <class name="testCases.DisableCamera_CallPatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableCamera_CallPatient -->
+      <class name="testCases.DisableMic_CallPatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableMic_CallPatient -->
+      <class name="testCases.PatientLogin">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.PatientLogin -->
+      <class name="testCases.DisableCamera_DisconnectCall">
+        <methods>
+          <include name="CallPatient"/>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableCamera_DisconnectCall -->
+    </classes>
+  </test> <!-- DisableCamera_DisconnectCall(failed) -->
+  <test name="DisableMic_DisconnectCall(failed)">
+    <classes>
+      <class name="testCases.CallThePatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.CallThePatient -->
+      <class name="testCases.DisableMicCamera_DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableMicCamera_DisconnectCall -->
+      <class name="testCases.DisableMicCamera_CallPatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableMicCamera_CallPatient -->
+      <class name="testCases.DisableMic_DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+          <include name="CallPatient"/>
+        </methods>
+      </class> <!-- testCases.DisableMic_DisconnectCall -->
+      <class name="testCases.DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisconnectCall -->
+      <class name="testCases.DisableCamera_CallPatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableCamera_CallPatient -->
+      <class name="testCases.DisableMic_CallPatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableMic_CallPatient -->
+      <class name="testCases.PatientLogin">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.PatientLogin -->
+      <class name="testCases.DisableCamera_DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableCamera_DisconnectCall -->
+    </classes>
+  </test> <!-- DisableMic_DisconnectCall(failed) -->
+  <test name="DisableMicCamera_CallPatient(failed)">
+    <classes>
+      <class name="testCases.CallThePatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.CallThePatient -->
+      <class name="testCases.DisableMicCamera_DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableMicCamera_DisconnectCall -->
+      <class name="testCases.DisableMicCamera_CallPatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+          <include name="CallPatient"/>
+        </methods>
+      </class> <!-- testCases.DisableMicCamera_CallPatient -->
+      <class name="testCases.DisableMic_DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableMic_DisconnectCall -->
+      <class name="testCases.DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisconnectCall -->
+      <class name="testCases.DisableCamera_CallPatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableCamera_CallPatient -->
+      <class name="testCases.DisableMic_CallPatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableMic_CallPatient -->
+      <class name="testCases.PatientLogin">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.PatientLogin -->
+      <class name="testCases.DisableCamera_DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableCamera_DisconnectCall -->
+    </classes>
+  </test> <!-- DisableMicCamera_CallPatient(failed) -->
+  <test name="DisableMicCamera_DisconnectCall(failed)">
+    <classes>
+      <class name="testCases.DisableMicCamera_DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+          <include name="CallPatient"/>
+        </methods>
+      </class> <!-- testCases.DisableMicCamera_DisconnectCall -->
+      <class name="testCases.CallThePatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.CallThePatient -->
+      <class name="testCases.DisableMicCamera_CallPatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableMicCamera_CallPatient -->
+      <class name="testCases.DisableMic_DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableMic_DisconnectCall -->
+      <class name="testCases.DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisconnectCall -->
+      <class name="testCases.DisableCamera_CallPatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableCamera_CallPatient -->
+      <class name="testCases.DisableMic_CallPatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableMic_CallPatient -->
+      <class name="testCases.PatientLogin">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.PatientLogin -->
+      <class name="testCases.DisableCamera_DisconnectCall">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testCases.DisableCamera_DisconnectCall -->
+    </classes>
+  </test> <!-- DisableMicCamera_DisconnectCall(failed) -->
+</suite> <!-- Failed suite [VideoVisit suite] -->

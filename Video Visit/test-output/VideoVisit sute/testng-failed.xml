@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [VideoVisit sute]">
+  <test name="Call the patient(failed)">
+    <classes>
+      <class name="testCases.CallThePatient">
+        <methods>
+          <include name="teardown"/>
+          <include name="browser"/>
+          <include name="CallPatient"/>
+        </methods>
+      </class> <!-- testCases.CallThePatient -->
+    </classes>
+  </test> <!-- Call the patient(failed) -->
+</suite> <!-- Failed suite [VideoVisit sute] -->
